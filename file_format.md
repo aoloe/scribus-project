@@ -1,4 +1,4 @@
 - what about using sqlite instead of a pure xml format?
   - performance?
-  - recovering?
+  - recovering from corrupted files? can a sqlite db get corrupted?
 - what about using html/css for the text frames content?
