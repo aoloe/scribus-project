@@ -1,0 +1,4 @@
+- what about using sqlite instead of a pure xml format?
+  - performance?
+  - recovering?
+- what about using html/css for the text frames content?
