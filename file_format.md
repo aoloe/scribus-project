@@ -1,4 +1,5 @@
 - what about using sqlite instead of a pure xml format?
   - performance?
   - recovering from corrupted files? can a sqlite db get corrupted?
+  - or a key/value storage engine like google leveldb?
 - what about using html/css for the text frames content?
