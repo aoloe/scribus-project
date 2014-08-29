@@ -2,6 +2,11 @@
 - the indic scribus version
 - http://wiki.scribus.net/canvas/Complex_Script_Functionality
 
+
+- for comments use https://github.com/aoloe/scribus-project/issues/1
+- fork, branch and pull request to edit the project description
+
+
 ~~~~
 12:25 < prp-e> OK, How can I add support RTL Persian and Arabic support to Scribus text frame?
 12:25 < a-l-e> but you could also look for share/editorconfig/ in your installed version
