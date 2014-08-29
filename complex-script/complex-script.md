@@ -3,6 +3,7 @@
 - the indic scribus version
   - http://www.atps.in
   - http://lists.scribus.net/pipermail/scribus/2012-August/047258.html
+  - https://launchpad.net/~ale-comp-06/+archive/ubuntu/scribus-git-indic
 - http://wiki.scribus.net/canvas/Complex_Script_Functionality
 - http://bugs.scribus.net/view.php?id=1079
 
