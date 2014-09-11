@@ -1,0 +1,3 @@
+- [ ] get the new scripter to work again
+- [ ] remove or fix the scripter console
+- [ ] finish the scripts downloader
