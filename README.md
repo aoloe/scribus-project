@@ -14,3 +14,4 @@ list of projects for scribus:
   - script
   - image
   - ...
+  or is it overingeneering?
