@@ -1,0 +1,2 @@
+- On canvas editing
+- Toolbar instead of the current tool
