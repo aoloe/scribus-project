@@ -10,3 +10,7 @@ Once everything in place, the team can decided if it wants to switch to the prop
   - recovering from corrupted files? can a sqlite db get corrupted?
   - or a key/value storage engine like google leveldb?
 - what about using html/css for the text frames content?
+
+# Notes:
+
+- [In the bug tracker](http://bugs.scribus.net/view.php?id=12656) grol suggests to use QML as a description language for Scribus documents.
