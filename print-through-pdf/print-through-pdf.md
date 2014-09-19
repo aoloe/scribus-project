@@ -13,3 +13,7 @@ Notes:
 
 - If possible, the PDF reader should close after having printed the document.
 - The user should be able to chose, if he wants to see the reader's print options.
+
+# Related tickets
+
+- [Does not print in landscape](http://bugs.scribus.net/view.php?id=5708)
