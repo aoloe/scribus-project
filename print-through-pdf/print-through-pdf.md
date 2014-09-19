@@ -17,3 +17,4 @@ Notes:
 # Related tickets
 
 - [Does not print in landscape](http://bugs.scribus.net/view.php?id=5708)
+- [Page becomes rotated 90 degrees clockwise when printing to postscript level 3](http://bugs.scribus.net/view.php?id=8254)
