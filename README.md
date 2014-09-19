@@ -15,3 +15,4 @@ list of projects for scribus:
   - image
   - ...
   or is it overingeneering?
+- comments: is there a way to add the comments from my site by js to the tickets? if not, send me an email with the comment and i'll click on the link to accept it and add it in my name to the ticket's comments
