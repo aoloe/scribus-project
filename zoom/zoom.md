@@ -10,3 +10,5 @@
 - eventually remove the 1 lens button
 - eventually remove the spinbox (are typing and scrollwheel not enough?)
 - get the up and down arrow keys to work in the text field
+
+The current layout can be moved to a Zoom toolbar
