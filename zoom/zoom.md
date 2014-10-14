@@ -3,7 +3,7 @@
 - when zooming with the scrollwheel, the cursor position should be used as a reference
 - when zooming with the +/- shortcuts, the current behavior using the selection as a reference is ok
 - when using the spinboxes in the status bar it should use the center of the viewport
-- use more sane steps (http://bugs.scribus.net/view.php?id=10978)
+- use more sane steps (<http://bugs.scribus.net/view.php?id=10171>, http://bugs.scribus.net/view.php?id=10978)
 
 ## Status bar
 
