@@ -55,3 +55,7 @@ and write down a proposal defining how scribus should behave?
 
 you don't need to be able to code for it, but you need some experience
 with DTP tools and good UI/UX skills :-)
+
+## Notes
+
+- Sveinn suggests: I'm wondering if the problem (if there is a problem) is maybe more general; should the view go automatically to cursor location in case of any kind of edit? 
