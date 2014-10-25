@@ -59,3 +59,4 @@ with DTP tools and good UI/UX skills :-)
 ## Notes
 
 - Sveinn suggests: I'm wondering if the problem (if there is a problem) is maybe more general; should the view go automatically to cursor location in case of any kind of edit? 
+- Greg says: It might be good to first consider what actions are undoable. Some may be relatively invisible, and others may be pageless -- changes to a style for example.
