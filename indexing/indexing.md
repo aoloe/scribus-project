@@ -265,6 +265,22 @@ tool for identifying possible index terms and uses.
 
 Reading the formatted index shouldn't be more difficult than importing text.
 
+### ale again
+
+on debian i don't think i can install makeindex without installing the
+full latex.
+i don't think that you can download it for windows or os x, either
+
+but having had a look at the makeindex project page, it seems indeed
+possible to use it as a standalone software... i guess that we would
+have to add it to the scribus sources, then...
+
+or expect the user to install the full latex package...
+
+### craig
+
+I'm sure we can write our own indexing code, but using the idea from latex.
+
 ## lászló, 30.7.2014 on the scribus mailing list
 
 1. So please if anyone works on this project, use xindy for the external 
@@ -294,3 +310,32 @@ bold, which shouldn't. Since the output of xindy is extremely
 customisable, you could use e.g. xml structures to pass this info to 
 scribus rather than just the plain strings. Or you could use some other 
 markup.
+
+## louis, 4.7.2014 on the scribus-dev mailing list
+
+1. Create from scratch a *concordance file* (a list of the words you want
+to have indexed in your document)
+The indexing program compares the list against the document and tags the
+words to produce the index. Notably, we can expand the program’s
+capapilities to co-occurrences and not only single words. Example: "open
+source software" and not only "open" or "source" or "software"... or others
+like "tar sands"... etc.
+
+2. Create the concordance file using the program’s capabilities to
+initially propose a list of potential candidates to be indexed, using
+various parameters (minimum length of word, number of occurrences, among
+other things). This list must then be thoroughly checked by a human being.
+Once that person is satisfied with the result, the file becomes a
+concordance file that can be used as in 1). Not an easy task.
+
+3. Manually tag the words to be indexed while creating the content. The
+tagging can be done using a specific character style than can then we used
+by the program to locate the words (or expressions) and create the index.
+Another method can be used to manually tag words in a more complex way as
+to produce multiple levels index (you’d need to make multiple tagging with
+categories). But this can become a very long and demanding task.
+
+4. Yet another way would be to read the document once layed-out and
+"extract" the index that way but this seems to me a horrible way to
+accomplish an index!
+
