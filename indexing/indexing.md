@@ -1,5 +1,9 @@
 We should provide a way for scribus to index the content or a way to interface with existing external tools.
 
+# Existing tools
+
+- Xindy (but is not simple to setup)
+
 # Notes
 
 ## john jason, 20.6.2014, scribus mailing list
