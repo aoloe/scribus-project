@@ -169,3 +169,33 @@ the nroff family, and even sgm/html systems. It
 is a very geeky approach to the indexing task.
 But where non-romance languages are involved its
 feature set is worth inspecting.
+
+## lászló, 30.7.2014 on the scribus mailing list
+
+1. So please if anyone works on this project, use xindy for the external 
+indexer, not makeindex. The only disadvantage of using xindy, that it 
+seems to be a very niche product, it is usually not included in major 
+linux distros, and there seems to be no windows or osx port yet. And 
+their website (http://xindy.sourceforge.net) is actually misleading you 
+if you want to download it, you should go here:
+https://github.com/jschrod/xindy.ctan
+
+A few more notes to the above document: phase2.pdf
+
+2. I don't think it is a good idea to keep an .idx file open all the 
+time. The index items have to be stored in the scribus document file 
+itself anyway, so the .idx file can be generated on demand any time it 
+becomes necessary. It means it can be a temporary file. That also means 
+the developers can change the .idx file format if they want to switch to 
+another indexer. Or even better, you could support more than one indexer 
+program.
+
+3. I also don't think the output of the indexer program should be as 
+plain as it is suggested. The indexer program (xindy) can distinguish 
+between different classes of index items (e.g. it is customary to use 
+boldface for those page numbers where the topic is described in detail 
+in a book). So the indexer can indicate which page numbers should be 
+bold, which shouldn't. Since the output of xindy is extremely 
+customisable, you could use e.g. xml structures to pass this info to 
+scribus rather than just the plain strings. Or you could use some other 
+markup.
