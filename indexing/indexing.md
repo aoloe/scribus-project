@@ -170,6 +170,101 @@ is a very geeky approach to the indexing task.
 But where non-romance languages are involved its
 feature set is worth inspecting.
 
+## john phase2 proposal, 2.7.2014 on the scribus mailing list
+
+### ale says:
+
+if i understand you correctly, you're suggesting that we should use the
+tex/latex indexing system from scribus.
+
+personally, i'd prefer a solution that -- while possibly using external
+libraries -- does not pull in a huge package like latex...
+but for the time being, going through latex could also be a way of
+doing (in the future we could have a simpler internal index or an
+external one through latex)
+
+so, back to your proposal!
+
+while i'm comfortable with latex, i must admit that i have never used
+its indexing system... so, i might not understand some details...
+
+let's try to split the proposal in three phases:
+
+- marking the words that are to be indexed
+
+- creating an idx file that can be fed into makeindex
+
+- getting the result into scribus and format it as wished by the user.
+
+
+
+a. marking the words to be indexed
+
+as i understand it, if the user wants to add a word to the index -- the
+"dog" appearing on page 32 -- he has to get scribus to change "dog"
+into "\indexentry{dog}{32}"
+
+we probably don't want to put the code as is in the text frame
+(scribus being strongly wysiwyg...) but there are a few a ways to
+achieve that!
+as an example, we could have a "show fields" mode or could be showing
+the codes in a separate window.
+
+we certainly want scribus to automatically fill and update the page
+number.
+
+and we will have to store each index in the .sla.
+
+
+b. creating an idx file
+
+you seem to suggest that scribus should keep an idx file in sync with
+the .sla.
+
+i don't think that tex/latex is doing it, and i don't think that
+scribus should, either.
+the idx file should be created on the fly when the index is created or
+updated.
+
+it will probably be slow, but does it really matter?
+for sure, if we use latex, we probably will not want to update the
+index each time a page is refreshed!
+
+concerning the creation of the idx itself, we will have to check a way
+that makes sure that the page breaks are the same in the file fed into
+makeindex and in the .sla... but this should not be way too complicated
+to achieve.
+
+c. getting the index into scribus
+
+i have not looked into the output of makeindex but i expect a well
+structured file that is fairly easy to parse.
+i'm not too worried about that...
+
+so, using manual edited marks and latex's makeindex for indexing looks
+like something doable, but not trivial...
+
+in my eyes the biggest issue being the way we can mark the entries.
+
+ ### andreas says
+ 
+ You can use makeindex without LaTeX. It just converts a raw index file to a
+formatted index.
+Using a style file it's possible to change the input and output formats.
+
+I'd prefer to use its successor Xindy, though. Xindy supports international
+languages (incl. Klingon)
+and is more flexible.
+
+The interesting part is how to get the raw index from Scribus. We could use
+something like characters styles
+or we could use escape chars like {thingy} and {dog|pets|animals} or
+>thingy< and  >dog|pets|animals<.  
+It might also be interesting to combine it with a word frequency counting
+tool for identifying possible index terms and uses.
+
+Reading the formatted index shouldn't be more difficult than importing text.
+
 ## lászló, 30.7.2014 on the scribus mailing list
 
 1. So please if anyone works on this project, use xindy for the external 
