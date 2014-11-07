@@ -93,3 +93,75 @@ concomitantly the number of potential developers.
 I offer the above just as thoughts for further discussion. It would be
 cool to have an indexing tool for Scribus, even if it is not as fully
 capable as we might wish.
+
+## john, 21.6.2014 on the scribus mailing list
+
+1.  Most professional indexers use a
+totally non-integrated approach. they receive a
+final and paginated pdf from the publisher, print
+it out, mark up the index items on the paper pages
+and then enter the information using a separate
+commercial program. The separate program 
+generates a file that can be added to
+the book by the publisher or author. 
+
+2. The next level is semi-integration, or a tagged
+index. TeX uses this technique. TeX is a
+compilative system. The author works on a source
+file with the suffix .tex. When a term is
+encountered that needs indexing a tag is entered
+at that spot. When the source file is compiled in
+TeX a separate file of tagged indexed items with
+the the suffix .idx is generated. This is run
+through a separate program (usually makeindex)  
+and a file resembling the final index is created
+with the suffix .ind. A command is placed at the
+end of the original tex file that imports the
+index and typesets it. Typically I set up a
+script that runs TeX, runs makeindex, and then
+runs TeX again to import the index into the pdf
+document.
+
+3. The third version used in programs such as
+InDesign and Libre office, where the indexing
+function is fully integrated into the main
+program. Here is how Libre Office help describbes
+the process:
+
+   Click in a word, or select the words in your
+    document that you want to use as an index
+    entry. Choose Insert - Indexes and Tables -
+    Entry, and do one of the following:
+
+    To change the text that appears in the index,
+    type the text that you want in the Entry box.
+    The text that you type here does not replace
+    the selected text in the document. To add an
+    index mark to similar words in your document,
+    select Apply to all similar texts. To add the
+    entries to a custom index, click the New
+    User-defined Index icon, enter the name of
+    the index, and then click OK.
+
+There is a separate command that places the index
+at the end of the document.
+
+The third level is perhaps the most desirable but
+is the hardest to implement. So I propose a
+gradual approach. First, use my stand alone
+program tyro.tcl This separate program actually
+uses the makeindex program to generate the index,
+but as you enter items the current version of
+the index appears in a tk window. 
+
+I should mention that makeindex is not the only
+TeX game in town. There is another indexing
+program in the TeX suite called Xindy. It is
+little used. It adds additional capabilities not
+found in makeindex, principally foreign alphabet
+sorting. It uses style files for various
+languages. I can be used with TeX (usually LaTeX),
+the nroff family, and even sgm/html systems. It
+is a very geeky approach to the indexing task.
+But where non-romance languages are involved its
+feature set is worth inspecting.
