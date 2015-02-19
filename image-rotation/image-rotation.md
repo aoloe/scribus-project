@@ -13,3 +13,6 @@ It can give a good overview on the way the Scribus code works.
 - implement the export as PNG image
 - implement the export as svg
 - add the command to the scripter API
+
+optionally:
+- add a setting (or a way) to rotate the frame without rotating the image inside of it
