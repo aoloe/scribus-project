@@ -23,4 +23,4 @@ There is no need for a default style, because the default style in any case need
 
 ## a.l.e says
 
-i would go the other way round: no more settings in the text tool except being able to choosea style. the "Default style" beeing the default.
+i would go the other way round: no more settings in the text tool except being able to choose a style. the "Default style" being the default.
