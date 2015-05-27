@@ -1,3 +1,5 @@
+make sure that all control characters have a (good) representation.
+
 - spaces:
   - space
   - non breaking space
