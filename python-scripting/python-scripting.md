@@ -11,3 +11,5 @@
       - [ ] make a list of needed classes and function and list their matching old scripter commands
       - [ ] implement the new commandds
 - [ ] create a test suite?
+
+(this list has been moved to https://github.com/aoloe/scribus-plugin-scripter/blob/master/README.md)
