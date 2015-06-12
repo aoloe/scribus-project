@@ -21,3 +21,9 @@ We need to tag the projects for
   - beginner
   - knowleged
   - advanced
+
+We should also define
+
+- if the tagging is done in a yaml section at the beggining of the markdown file,
+- if a yaml file should be created for each project or
+- if one big yaml file should have all the taggin.
