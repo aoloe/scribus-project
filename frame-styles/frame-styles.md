@@ -1,3 +1,3 @@
 # Frame styles
 
-Create frame styles.
+Implement frame styles to let the user define common behaviors for frames.
