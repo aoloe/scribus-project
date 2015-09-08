@@ -13,8 +13,8 @@ We probably first need a concept that can be applied to the navigation and then 
 # Notes by a.l.e
 
 Personally, i still like the way staroffice did (iirc) and, sadly, libreoffice does not anymore: file/Scribus > settings && format > document.  
-i just rediscovered that scribus does not have a "format" menu... and i wonder if there shouldn't be one.
+I just rediscovered that scribus does not have a "format" menu... and i wonder if there shouldn't be one.
 as usual, i have the feeling that there should not be a "table" menu and split its entries between "insert > table" and "format > table".
 
-the "format" menu could contain commands that make the properties palette visible and selects the matching tab; and the styles editor. (and probably some other entries that are currently placed in a very "technical" (and not semantic) way under "edit", "extras" and "windows".
+The "format" menu could contain commands that make the properties palette visible and selects the matching tab; and the styles editor. (and probably some other entries that are currently placed in a very "technical" (and not semantic) way under "edit", "extras" and "windows".
 
