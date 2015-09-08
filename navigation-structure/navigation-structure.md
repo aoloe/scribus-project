@@ -10,7 +10,9 @@ There are several issues in the navigation that should be improved:
 
 We probably first need a concept that can be applied to the navigation and then propose incremental changes to achieve the goal.
 
-# Notes by a.l.e
+## Notes
+
+### Ale
 
 Personally, i still like the way staroffice did (iirc) and, sadly, libreoffice does not anymore: file/Scribus > settings && format > document.  
 I just rediscovered that scribus does not have a "format" menu... and i wonder if there shouldn't be one.
