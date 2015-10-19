@@ -139,3 +139,9 @@ This is a temporary static collection of easy hacks for Scribus.
   - Define a set possible implementations.
   - Create mockups for the dialogs
   - Implement the actions and dialogs.
+- Jump to bookmarks
+  - Specifications on how bookmarks should work
+  - Implement the placement of bookmarks on the page
+  - Implement a list of bookmarks
+  - Implement jumping to bookmarks
+  - The bookmarks could be implemented as notes (printing could be switched) with title and description
