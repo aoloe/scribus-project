@@ -1,14 +1,34 @@
+/*
+title:
+description:
+tags:
+    - RTL
+    - CTL
+aufwand: meta project
+skills:
+    c++: knowledged
+    fonts: knowledged
+*/
+
+# Complex Script
+
+This meta project contains notes and links on Scribus' support for Complex Text Languages (CTL).
+
+Some helpful resources:
+
+- andrea's repository
+  - <http://...>
 - pierre's branch
-  - http://scribus.net/websvn/listing.php?repname=Scribus&path=%2Fbranches%2FScribusOIF
+  - <http://scribus.net/websvn/listing.php?repname=Scribus&path=%2Fbranches%2FScribusOIF>
 - the indic scribus version
-  - http://www.atps.in
-  - http://lists.scribus.net/pipermail/scribus/2012-August/047258.html
-  - https://launchpad.net/~ale-comp-06/+archive/ubuntu/scribus-git-indic
-- http://wiki.scribus.net/canvas/Complex_Script_Functionality
-- http://bugs.scribus.net/view.php?id=1079
+  - <http://www.atps.in>
+  - <http://lists.scribus.net/pipermail/scribus/2012-August/047258.html>
+  - <https://launchpad.net/~ale-comp-06/+archive/ubuntu/scribus-git-indic>
+- <http://wiki.scribus.net/canvas/Complex_Script_Functionality>
+- <http://bugs.scribus.net/view.php?id=1079>
 
 
-- for comments use https://github.com/aoloe/scribus-project/issues/1
+- for comments use <https://github.com/aoloe/scribus-project/issues/1>
 - fork, branch and pull request to edit the project description
 
 

@@ -1,29 +1,35 @@
 # Notes
 
-## Tagging the projects
+## Properties the projects
 
-We need to tag the projects for
+Properties
 
-- type of project
+We need properties for
+
+- tags
+- aufwand
   - easy hack
-  - hours of work
-  - days of work
+  - less than a day
+  - less than a week
   - long term project
   - meta project (with a list of related projects?)
-- skills required
-  - c++
-  - python
-  - UI designer
-  - UX
-  - writing (with different languages?)
-  - screenshots and screencasts
-- level of skills
-  - beginner
-  - knowleged
-  - advanced
+- skills
+  - labels:
+     - c++
+     - python
+     - UI designer
+     - UX
+     - writing (with different languages?)
+       - screenshots and screencasts
+   - level of skills
+       - beginner
+       - knowleged
+       - advanced
 
-We should also define
+Further properties could be:
 
-- if the tagging is done in a yaml section at the beggining of the markdown file,
-- if a yaml file should be created for each project or
-- if one big yaml file should have all the taggin.
+- start deadline
+- end deadline
+- founding (available/amount)
+
+The tagging is done in a yaml section at the beggining of the markdown file in a /* ... */ comment section.

@@ -57,6 +57,11 @@ This is a temporary static collection of easy hacks for Scribus.
   - Create a mockup of the dialog.
   - Implement the actions.
   - Add the prefences.
+- Snap to bleed
+  - If they are not the same as the page margin
+  - Understand how snapping to the page border works
+  - Implement the same behavior for the bleed.
+
 
 ## Involving text rendering
 
