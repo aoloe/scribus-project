@@ -18,4 +18,5 @@ The first step would be to make sure that every Scribus file has a Doxygen comme
       - showing the status (no documentation, some discussion, basic documentation, good documentation)
       - giving a way to browse the code and type the documentation
       - allow comments
+- [ ] Possibly plan a documentation weekend (both on site and virtual?)
 - [ ] Manage the patches
