@@ -7,7 +7,7 @@ Properties
 We need properties for
 
 - tags
-- aufwand
+- complexity/scope/extent:
   - easy hack
   - less than a day
   - less than a week
