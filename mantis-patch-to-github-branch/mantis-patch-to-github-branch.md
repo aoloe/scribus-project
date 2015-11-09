@@ -40,7 +40,7 @@ i would start by doing it by hand, but taking notes on what we are doing, step b
 - [ ] Build a workflow
 
 ### Backend
-1. git clone git://github.com/scribusproject/scribus
-2. cd scribus/
-3. git add remote git://github.com/impagina/scribus-sandbox
+1. ```git clone git://github.com/scribusproject/scribus```
+2. ```cd scribus/```
+3. ```git add remote git://github.com/impagina/scribus-sandbox```
 4. 
