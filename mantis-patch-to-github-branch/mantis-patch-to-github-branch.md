@@ -36,4 +36,5 @@ i would start by doing it by hand, but taking notes on what we are doing, step b
 
 ## TODO
 - [x] Create sandbox repo (https://github.com/impagina/scribus-sandbox)
-- [ ] Build a workflow 
+- [x] Register impagina/scribus-sandbox on travis-ci
+- [ ] Build a workflow
