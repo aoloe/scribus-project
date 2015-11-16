@@ -21,6 +21,12 @@ We should create a standalone application that could be later converted into a S
 - allow local advanced typographical formatting:
   - letter distance, ...
 
+some links:
+
+- http://doc.qt.io/qt-5.5/richtext.html
+- http://blog.qt.io/blog/2009/03/12/wysiwyg-html-editor/
+- http://www.hobrasoft.cz/en/blog/bravenec/qt-rich-text-editor
+
 ## Notes
 
 - should it a Scribus plugin or an external application
