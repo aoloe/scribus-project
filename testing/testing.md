@@ -14,3 +14,7 @@ We should:
 - Testing the Canvas rendering (through PNG export... not sure if the PNG export matches the canvas rendering, thgough)
 - Testing the user interface:
   - Regressions testing: https://github.com/scribusproject/scribus/issues/18 using SikuliX. It has Jython support which we could use to automate testing as well. 
+
+## Notes
+
+- mapreri could help integrate them in the packaging (so they get run in ci.debian.net / http://autopkgtest.ubuntu.com/ ) once they are available.
