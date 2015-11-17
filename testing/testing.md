@@ -2,7 +2,7 @@
 
 Currently Scribus has little or no automatic testing.
 
-Since we now can run Scribus from the terminal, it's now easier to get Scribus to run a test suite.
+Since we now can run Scribus scripts from the terminal, it's now easier to get Scribus to run a test suite.
 
 We should:
 - Testing the PDF export
