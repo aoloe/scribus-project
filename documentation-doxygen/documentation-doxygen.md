@@ -5,6 +5,12 @@
 - [ ] keep the Doxygen documentation up to date
 - [ ] Improve the quality of the Doxygen relevant comments in the source code
 
+# Organize a docsprint
+
+- each file should have a doxgen documentation at the beginning
+- each directory should have a README.md file
+- create a DTD for the current .sla format
+
 ## Adopt a file
 
 We can ask the Scribus users to help crowdsource the documentation of the Scribus code.
