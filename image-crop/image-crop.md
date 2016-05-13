@@ -13,3 +13,6 @@ Exporting to pdf could have an option to crop the images to the visible part.
 - Nermander says in the forum: "Lossless cropping of images in exported PDF is on the wishlist. JPEG is the major problem, but they can (if I recall correct) be losslessly cropped by allowing up to 15 or 16 pixels outside the visible part to remain."
   - http://nodivisions.com/photos/apps/lossless-cropping/
 - cropping when exporting to pdf will have to make sure that images used multiple times (but only inserted once as resource in the pdf) are not crop in a way that content is lost.
+- a perl script for cropping images in a sla:
+  - https://photo.m-j-s.net/blog/2016/05/blurb-pdf-upload/
+  - https://github.com/phtnnz/perl-scripts/blob/master/scribus-crop.pl
