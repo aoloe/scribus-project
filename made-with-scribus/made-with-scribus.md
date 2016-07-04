@@ -38,3 +38,14 @@ On top of it:
 - the descriptions and the content should be translated in several languages.
 
 <http://reclaimyourtools.org> could be used for it. (that's the motto of an older LGM)
+
+This is a PHP based QR code generator: <https://github.com/t0k4rt/phpqrcode>
+
+- <http://stackoverflow.com/questions/5943368/dynamically-generating-a-qr-code-with-php>
+
+And a js/jquery based one:
+
+- <https://kazuhikoarase.github.io/qrcode-generator/> (also in php)
+- <https://github.com/jeromeetienne/jquery-qrcode>
+
+Ale could create a silex based website.
