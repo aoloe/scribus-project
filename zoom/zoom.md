@@ -44,3 +44,5 @@ on the one side, we want to reduce the number of ways of doing exactly the same 
 - get the up and down arrow keys to work in the text spinbox
 
 The current layout can be moved to a Zoom toolbar
+
+In the forums, Garry has made a proposal for a new zoom toolbar: <http://forums.scribus.net/index.php/topic,1679.msg7507.html#msg7507>
