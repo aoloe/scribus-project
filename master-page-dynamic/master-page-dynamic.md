@@ -13,6 +13,17 @@ The problems with the way the master pages work in Scribus, already start from t
 - better visibility for guides, scrapbook, scrapbook linked items
 - more variables fields
 
-# related projects:
+## Automatically add scrapbook and pattern items
+
+- When a page with a specific master page is created, automatically add one ore more scrapbook entries.
+- The template items could be on a "master page" layer that does not get printed.
+
+Ideas:
+
+- We could have layers that are only shown when in master page modus.
+
+does anybody want to do a UX / UI proposal for this feature? 
+
+## related projects:
 
 - real double sided master pages
