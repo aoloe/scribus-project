@@ -3,9 +3,11 @@
 Add vector frames.
 
 - All the shapes are contained in the frame
-- Render the SVG as a bitmap on the canvas
-- Color in vector drawigns inside of a frame, are not visible from the document.
-- There should be a way to import single colors from the loaded SVG
+- Render the SVG as a bitmap or as a group on the canvas
+- Color in vector drawigns inside of a frame, are not "visible" from the document.
+- There should be a way to import single colors from the loaded SVG (or is the color picker enough?)
+- vector frames come from an SVG/PDF or are calculated (like for render frames)
+- optionally cache the transformation from SVG/PDF to SLA
 
 ## Notes
 
