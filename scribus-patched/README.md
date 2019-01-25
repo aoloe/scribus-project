@@ -103,6 +103,7 @@ https://github.com/impagina/scribus
   - show possible modifier
   - a picker / inspector to get help on UI items
   - a "short help" browser
+  - http://doc.qt.io/qt-5/qwhatsthis.html
 - a flatplan to replace arrange pages
   - vertical and horizontal layout
 - allow relative paths for images (and fonts)
