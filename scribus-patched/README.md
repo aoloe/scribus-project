@@ -23,6 +23,8 @@ https://github.com/impagina/scribus
   - https://bugs.scribus.net/view.php?id=15553
 - do not reset the image position when loading an image over an existing one
   - https://bugs.scribus.net/view.php?id=12253
+- do not overflow images that are set to fit the frame
+  - https://bugs.scribus.net/view.php?id=15448
 
 ## Existing possible patches
 
@@ -80,6 +82,7 @@ https://github.com/impagina/scribus
 - add a fill frame option in the image frame scaling
   - it should only be possible to move the image inside of the frame in one direction and no padding can appear.
   - https://bugs.scribus.net/view.php?id=15437
+  - create three horizontal buttons for the three fitting options (instead of three radio buttons)
 - fit to content for both text and image frames
   - https://bugs.scribus.net/view.php?id=15240
 - context menu: move the content of "image" into "content"
