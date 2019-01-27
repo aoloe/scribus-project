@@ -33,9 +33,14 @@ https://github.com/impagina/scribus
 - by default show the properties palette docked to the right
   - https://bugs.scribus.net/view_all_bug_page.php?page_number=3
 - by default shoe the tools toolbar on the left and hide the other ones
-- remove some tools from the toolbar
+- remove some tools from the toolbar (only reachable from the insert menu; eventually add a draw toolbar)
   - hand drawing
   - callygraphy
+  - polygon
+  - arc
+  - spyral
+  - barcode
+  - remove the pull down on the shape button
 
 ### Guides and snapping
 
@@ -86,6 +91,12 @@ https://github.com/impagina/scribus
 
 - add a "edit" entry before the "edit with story editor"
 
+### Tools and items
+
+- Experimental features must be invididually enabled before they show up in the UI
+  - Tables
+  - Export of image PDFs as vectors
+- Remove every reference to the free hand line tool (imported free hand lines can be deleted but not edited)
 ### Other
 
 - inspect, not outline
@@ -109,4 +120,6 @@ https://github.com/impagina/scribus
 - allow relative paths for images (and fonts)
   - https://bugs.scribus.net/view.php?id=9056
 - search and replace the whole document
+- unify the bezier and line tool
+
 ## Patches that are hard to create / maintain
